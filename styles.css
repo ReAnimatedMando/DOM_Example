@@ -82,6 +82,14 @@ li {
 .cool {
     background-color: #6cc0ac;
     color: #fff;
+    text-shadow: 2px 2px 1px #3b6a5e;
+    border-top: 1px solid #399295;
+    border-bottom: 1px solid #3b6a5e;
+}
+
+.complete {
+    background-color: #999;
+    color: #fff;
     background-image: url(images/icon-trash.png);
     background-position: center, right;
     background-repeat: no-repeat;
@@ -89,4 +97,9 @@ li {
     text-shadow: 2px 2px 1px #333;
 }
 
-
+li a {
+    color: #fff;
+    text-decoration: none;
+    background-image: url(images/icon-link);
+    background-position:
+}
