@@ -7,3 +7,46 @@ body {
     padding: 0;
 }
 
+#page {
+    background-color: #403c3b;
+    margin: 0 auto 0 auto;
+    /* Responsive page rules at bottom of stylesheet */
+}
+
+h1 {
+    background-image: url(images/kinglogo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    text-indent: -1000%;
+    height: 75px;
+    width: 117px;
+    line-height: 75px;
+    margin: 0 auto 0 auto;
+    padding: 30px 10px 20px 10px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 0 0 23px 0;
+}
+
+h2 span {
+    border-radius: 50%;
+    background-color: #000;
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    height: 18px;
+    width: 20px;
+    margin-left: 5px;
+    padding: 4px 0 0 4px;
+}
+
