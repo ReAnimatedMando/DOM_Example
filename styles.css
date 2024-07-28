@@ -71,4 +71,22 @@ li {
     padding-top: 10px;
 }
 
+.hot {
+    background-color: #d7666b;
+    color: #fff;
+    text-shadow: 2px 2px 1px #914141;
+    border-top: 1px solid #e99295;
+    border-bottom: 1px solid #914141;
+}
+
+.cool {
+    background-color: #6cc0ac;
+    color: #fff;
+    background-image: url(images/icon-trash.png);
+    background-position: center, right;
+    background-repeat: no-repeat;
+    border-top: 1px solid #666;
+    text-shadow: 2px 2px 1px #333;
+}
+
 
