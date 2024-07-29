@@ -6,3 +6,6 @@ let newItemLast = document.createdElement('li');    // Create element
 let newTextLast = document.createTextNode('cream'); // Create text node
 newItemLast.appendChild(newTextLast);               // Add text node to element
 list.appendChild(newItemLast);                      // Add element end of list
+
+// ADD NEW ITEM START OF LIST
+let newItemFirst = document.createdElement('li');   // Create element
