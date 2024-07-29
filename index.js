@@ -12,3 +12,13 @@ let newItemFirst = document.createElement('li');   // Create element
 let newTextFirst = document.createTextNode('kale'); // Create text node
 newItemFirst.appendChild(newTextFirst);             // Add text node to element
 list.insertBefore(newItemFirst, list.firstChild);   // Add element to list
+
+let listItems = document.querySelectorAll('li');    // All <li> elements
+
+// ADD A CLASS OF COOL TO ALL LIST ITEMS
+let i;
+for (i = 0; i < listItems.length; i++) {            // Loop through elements
+    listItems[i].className = 'cool';                // Change class to cool
+}
+
+// ADD NUMBER OF ITEMS IN THE LIST TO THE HEADING
