@@ -11,3 +11,4 @@ list.appendChild(newItemLast);                      // Add element end of list
 let newItemFirst = document.createElement('li');   // Create element
 let newTextFirst = document.createTextNode('kale'); // Create text node
 newItemFirst.appendChild(newTextFirst);             // Add text node to element
+list.insertBefore(newItemFirst, list.firstChild);   // Add element to list
