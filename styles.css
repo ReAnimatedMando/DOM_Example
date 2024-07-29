@@ -101,5 +101,63 @@ li a {
     color: #fff;
     text-decoration: none;
     background-image: url(images/icon-link);
-    background-position:
+    background-position: center, right;
+    background-repeat: no-repeat;
+    padding-right: 36px;
+}
+
+p {
+    color: #403c3b;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    min-width: 20%;
+    max-width: 80%;
+}
+
+#scriptResults {
+    padding-bottom: 10px;
+}
+
+/* Small screen - acts like the app would */
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #584f4d;
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+/* Larger screens act like a demo for the app */
+
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    h1 {
+        background-image: url(images/2xkinglogo.png);
+        background-size: 72px 72px;
+    }
 }
