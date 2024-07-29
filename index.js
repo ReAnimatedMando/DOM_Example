@@ -25,5 +25,5 @@ for (i = 0; i < listItems.length; i++) {            // Loop through elements
 let heading = document.querySelector('h2');         // h2 element
 let headingText = heading.firstChild.nodeValue;     // h2 text
 let totalItems = listItems.length;                  // no. of <li> elements
-let newHeading = headingText + '<span>' + totalItems + '<span>';    // Content
+let newHeading = headingText + '<span>' + totalItems + '</span>';    // Content
 heading.innerHTML = newHeading;                     // Update h2
